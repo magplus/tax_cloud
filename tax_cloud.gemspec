@@ -2,12 +2,12 @@ $:.push File.expand_path("../lib", __FILE__)
 require "tax_cloud/version"
 
 Gem::Specification.new do |s|
-  s.name        = "tax_cloud"
+  s.name        = "tax_cloud-magplus"
   s.version     = TaxCloud::VERSION
   s.date        = %q{2012-04-11}
   s.authors     = ["Drew Tempelmeyer", "Mikael Amborn", "Lennart Fridén"]
-  s.email       = ["drewtemp@gmail.com"]
-  s.homepage    = "https://github.com/drewtempelmeyer/tax_cloud"
+  s.email       = ["backend@magplus.com"]
+  s.homepage    = "https://github.com/magplus/tax_cloud"
   s.summary     = %q{Calculate sales tax using TaxCloud}
   s.description = %q{Calculate sales tax using the TaxCloud.net API}
 
